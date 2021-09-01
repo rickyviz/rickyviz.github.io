@@ -1,0 +1,26 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 81" width="81" height="81">
+	<title>[fo]Top</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f49d00 } 
+		.shp1 { fill: #f48a00 } 
+		.shp2 { fill: #ffd640 } 
+		.shp3 { fill: #ffe952 } 
+		.shp4 { fill: #ffffff } 
+		.shp5 { fill: #ffc12c } 
+	</style>
+	<g id="[fo]Top">
+		<g id="coin">
+			<g id="coin">
+				<path id="Color Fill 527" fill-rule="evenodd" class="shp0" d="M2.13 22.5L0.57 31.93L5.26 57.1L11.53 63.39L30.31 69.68L50.67 68.1L66.32 58.67L71.02 49.23L67.89 19.35L2.13 22.5Z" />
+				<path id="Color Fill 532" fill-rule="evenodd" class="shp1" d="M11.53 52.38L9.96 63.39L14.66 66.53L14.66 52.38L11.53 52.38ZM20.92 57.1L20.92 69.68L25.62 71.25L24.05 57.1L20.92 57.1ZM33.44 58.67L31.88 71.25L36.58 71.25L36.58 58.67L33.44 58.67ZM42.84 57.1L41.27 71.25L45.97 71.25L45.84 57.1L42.84 57.1ZM53.41 54.87L52.49 68.24L55.63 67.32L56.54 53.69L53.41 54.87ZM61.24 50.81L60.45 64.04L64.5 61.03L63.06 49.1L61.24 50.81ZM66.98 43.34L67.76 56.83L69.98 54.34L68.28 40.45L66.98 43.34ZM6.57 41.89L4.09 58.93L6.83 61.68L9.44 44.65L6.57 41.89Z" />
+				<path id="Color Fill 526" fill-rule="evenodd" class="shp2" d="M2.13 20.93L13.09 5.2L35.01 0.48L56.93 3.63L67.89 19.35L69.46 42.94L64.76 52.38L49.1 58.67L25.62 60.24L11.53 53.95L3.7 38.22L2.13 20.93Z" />
+				<path id="Color Fill 531" fill-rule="evenodd" class="shp3" d="M2.13 22.5L16.22 8.34L33.44 5.2L55.36 8.34L63.19 20.93L69.46 39.8L71.02 17.78L58.5 0.48L33.44 -4.24L9.96 2.05L-1 17.78L2.13 22.5Z" />
+				<path id="Color Fill 530" fill-rule="evenodd" class="shp3" d="M55.36 27.22L47.54 38.22L24.05 42.94L17.79 31.93L19.35 46.09L42.84 49.23L55.36 41.37L56.93 30.36L55.36 27.22Z" />
+				<path id="Shape 26" class="shp4" d="M39.2 43.48L42.35 49.78L57.05 43.48L57.05 25.63L39.2 43.48Z" />
+				<path id="Color Fill 528" fill-rule="evenodd" class="shp5" d="M31.88 16.21L20.92 19.35L17.79 30.36L22.49 44.51L39.71 44.51L52.23 39.8L55.36 25.64L44.4 14.63L31.88 16.21Z" />
+				<path id="Color Fill 529" fill-rule="evenodd" class="shp0" d="M19.35 35.08L24.05 25.64L42.84 20.93L55.36 30.36L56.93 24.07L45.97 11.49L24.05 14.63L16.22 19.35L16.22 33.51L19.35 35.08Z" />
+			</g>
+		</g>
+	</g>
+</svg>
