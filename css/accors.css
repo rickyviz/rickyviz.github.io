@@ -1,3 +1,14 @@
+@font-face {
+  font-family: super-cell;
+  src: url('../fonts/supercell-magic-webfont.ttf');
+}
+
+.coin-data{
+  font-family: super-cell;
+  color: #2d3a3a;
+  padding: auto;
+}
+
 .page-title-icon::before{
     position: absolute;
     height: 100%;
@@ -8,8 +19,26 @@
     width: 60px;
 }
 
+.card-mission img {
+  max-width: 50%;
+  width: 100px; 
+  object-fit: cover;
+  object-position: bottom; 
+}
 
-.icon-stat {
+.card-hero img{
+  max-width: 50%;
+  width: 120px; 
+  object-fit: cover;
+  object-position: bottom; 
+}
+.card-hero img:hover{
+  transform:scale(1.7);
+  height: 100%;
+}
+
+
+.game-icon-btn {
     float: left;
     z-index: 2;
     margin-right: 13.33333px;
@@ -17,14 +46,39 @@
     border-radius: 16px;
     text-align: center
 }
-.icon-stat span{
+.game-icon-btn  span{
     color: #1f1f1f;
     font-size: 20px;
     font-family: Inter, sans-serif !important;
     margin-bottom: 5px;
     letter-spacing: -.8px;
 }
+.game-icon-btn:hover{
+  box-shadow: 0px 0px 46px -8px rgba(0,0,0,0.75);
+  transform:scale(1.3);
+  height: 100%;
+}
 
+
+.game-icon-btn  span img{
+  max-width: 100%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.card-weapons img{
+  max-width: 120px;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.card-weapons:hover{
+  transform:scale(1.1);
+  height: 100%;
+}
 .game-header{
     /* position: fixed; */
     top: 0;
@@ -103,3 +157,78 @@
    
 } */
 
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .game-icon-btn  span img{
+    max-width: 100%;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center bottom;
+  }
+
+  .coin-data{
+    font-size: 11px;
+  }
+  
+}
