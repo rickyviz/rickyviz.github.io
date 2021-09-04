@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission</title>
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/accors.css">
+    <link rel="stylesheet" href="fonts/css/fontawesome-all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-game">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/final_logo.png" style='height:50px'></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/marketplace_icon.svg'/><br/>Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/char_icon.svg'/><br/>Characters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/sword_icon.svg'/><br/>Weapons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/mission_icon.svg'/><br/>Mission</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <span class='token ryo'>1,230 <img src='images/games/diamond_icon.svg'/></span>
+            <span class='token budou'>180 <img src='images/games/ryo_icon.svg' /></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+   
+    <div class="page-content py-3 ">
+        <div class="content">
+            <div class="row justify-content-lg-center">
+                <div class="col-md-10 ">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <h4>1</h4>
+                        </div>
+                        <div class="item">
+                          <h4>2</h4>
+                        </div>
+                        <div class="item">
+                          <h4>3</h4>
+                        </div>
+                        <div class="item">
+                          <h4>4</h4>
+                        </div>
+                        <div class="item">
+                          <h4>5</h4>
+                        </div>
+                        <div class="item">
+                          <h4>6</h4>
+                        </div>
+                        <div class="item">
+                          <h4>7</h4>
+                        </div>
+                        <div class="item">
+                          <h4>8</h4>
+                        </div>
+                        <div class="item">
+                          <h4>9</h4>
+                        </div>
+                        <div class="item">
+                          <h4>10</h4>
+                        </div>
+                        <div class="item">
+                          <h4>11</h4>
+                        </div>
+                        <div class="item">
+                          <h4>12</h4>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        //OPEN MODAL
+        document.querySelectorAll('a').forEach(function (a) {
+            a.addEventListener('click', function () {
+                let clicked = a.getAttribute('data-menu');
+                if (clicked) {
+                    // let element = document.getElementById(clicked);
+                    document.getElementById(clicked).classList.toggle('menu-active');
+                    document.getElementById('menu-hider').classList.toggle('menu-active');
+
+                }
+            });
+        });
+
+        //CLOSE MODAL
+        let modalDivider = document.getElementById('menu-hider');
+        var menuActive = document.getElementsByClassName('menu-active');
+        modalDivider.addEventListener('click', () => {
+            for (i = 0; i < menuActive.length; i++) {
+                document.getElementById(menuActive[i].id).classList.toggle('menu-active');
+                document.getElementById('menu-hider').classList.toggle('menu-active');
+            }
+        })
+    </script>
+</body>
+
+
+</html>

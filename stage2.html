@@ -6,147 +6,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mission</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="css/accors.css">
     <link rel="stylesheet" href="fonts/css/fontawesome-all.min.css">
 </head>
 
 <body>
-    <div class="game-header sticky-top  mx-auto " style="transform: translateX(0px);">
-        <div class="container-fluid my-3">
-            <div class="row justify-content-lg-center">
-                <div class="col-md-8 col-12">
-                    <div class="float-md-left ">
-                        <a href="stage.html" data-tooltip="Character" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                            class="game-icon-btn active  shadow-xl my-auto bg-theme color-theme py-1"
-                            data-tooltip="I’m the tooltip text.">
-                            <span class="m-2">
-                                <img src="images/icons/skull.svg" width="50px" height="50px" alt="">
-                            </span>
-                        </a>
 
-                        <a href="mission.html" data-tooltip="Quest" data-menu="menu-option-1"
-                            class="game-icon-btn  shadow-xl my-auto bg-theme color-theme py-1" >
-                            <span class="m-2">
-                                <img src="images/icons/quest.svg" width="50px" height="50px" alt="">
-                            </span>
-                        </a>
-                        <a href="Heros.html" data-tooltip="waepon"
-                            class="game-icon-btn  shadow-xl my-auto bg-theme color-theme py-1">
-                            <span class="m-2">
-                                <img src="images/icons/sword.svg" width="50px" height="50px" alt="">
-                            </span>
-                        </a>
-                        <a href="Heros.html" data-tooltip="market"
-                            class="game-icon-btn  shadow-xl my-auto bg-theme color-theme py-1" >
-                            <span class="m-2">
-                                <img src="images/icons/boots.svg" width="50px" height="50px" alt="">
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12 justify-content-end  ">
-                    <div class="card card-style">
-                        <div class="content my-1 ">
-                            <div class="d-flex">
-
-                                <div class="w-100 pt-1">
-                                    <h6 class="font-14 font-700">Ryo <span
-                                            class="float-end color-green-dark">500,000,000</span></h6>
-                                    <div class="divider mb-2 mt-1"> </div>
-                                    <h6 class="font-14 font-700">Budou<span class="float-end color-red-dark">
-                                            000,000,000</span></h6>
-                                </div>
-                                <a href="#" data-tooltip="exchange" data-menu="exchange-popup"
-                                    class="game-icon-btn mr-0 shadow-xl my-auto bg-theme color-theme py-1">
-                                    <span class="m-2">
-                                        <img src="images/icons/shield.svg" width="50px" height="50px" alt="">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+    <nav class="navbar navbar-expand-lg navbar-light navbar-game">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/final_logo.png" style='height:50px'></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/marketplace_icon.svg'/><br/>Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/char_icon.svg'/><br/>Characters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/sword_icon.svg'/><br/>Weapons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src='images/games/mission_icon.svg'/><br/>Mission</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <span class='token ryo'>1,230 <img src='images/games/diamond_icon.svg'/></span>
+            <span class='token budou'>180 <img src='images/games/ryo_icon.svg' /></span>
+          </div>
         </div>
-    </div>
+      </div>
+    </nav>
+
    
     <div class="page-content py-3 ">
         <div class="content">
             <div class="row justify-content-lg-center">
                 <div class="col-md-10 ">
                     <div class="row justify-content-center mx-auto">
-                        <div class="col-md-3 pe-2 text-center d-flex align-items-stretch ">
-                            <div class="card card-style mx-0 px-2 text-center card-hero ">
-                                <img src="images/character/RUNGIF.gif" class="mx-auto my-3" >
-                            
-                                <h2>Hero</h2>
-                                <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                                <p class="font-11 line-height-s mb-2">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita?
-                                </p>
+                        <div class="col-md-4 pe-2 text-center d-flex align-items-stretch ">
+                            <div class="card card-style mx-0 px-3 text-center card-hero ">
+                                <div class='hero-img'>
+                                    <img src="images/kunoichi.png" class="mx-auto my-3" >
+                                    <div class='atk' ><img style='height:15px' src='images/games/attack.svg'/> 237</div>
+                                    <div class='def' ><img style='height:15px' src='images/games/defense.svg'/> 150</div>
+                                </div>
+                                <div class='stats'>
+                                    <div class="row">
+                                        <div class='col-md-12'><h3>Lv 6 Kunoichi<br> <span style='font-size:0.5em'>ID. 10748849</span></h3></div>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>
-                        <div class="col-md-3 pe-2 text-center d-flex align-items-stretch ">
-                            <div class="card card-style mx-0 px-2 text-center card-hero ">
-                                <img src="images/character/RUNGIF.gif" class="mx-auto my-3" >
-                            
-                                <h2>Hero</h2>
-                                <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                                <p class="font-11 line-height-s mb-2">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita?
-                                </p>
+                        <div class="col-md-4 pe-2 text-center d-flex align-items-stretch ">
+                            <div class="card card-style mx-0 px-3 text-center card-hero ">
+                                <div class='hero-img'>
+                                    <img src="images/onmyoji.png" class="mx-auto my-3" >
+                                    <div class='atk' ><img style='height:15px' src='images/games/attack.svg'/> 128</div>
+                                    <div class='def' ><img style='height:15px' src='images/games/defense.svg'/> 170</div>
+                                </div>
+                                <div class='stats'>
+                                    <div class="row">
+                                        <div class='col-md-12'><h3>Lv 2 Onmyoji<br> <span style='font-size:0.5em'>ID. 10748849</span></h3></div>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>
-                        <div class="col-md-3 pe-2 text-center d-flex align-items-stretch ">
-                            <div class="card card-style mx-0 px-2 text-center card-hero ">
-                                <img src="images/character/RUNGIF.gif" class="mx-auto my-3" >
-                                <h2>Hero</h2>
-                                <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                                <p class="font-11 line-height-s mb-2">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita?
-                                </p>
+                        <div class="col-md-4 pe-2 text-center d-flex align-items-stretch ">
+                            <div class="card card-style mx-0 px-3 text-center card-hero ">
+                                <div class='hero-img'>
+                                    <img src="images/samurai_char.png" class="mx-auto my-3" >
+                                    <div class='atk' ><img style='height:15px' src='images/games/attack.svg'/> 256</div>
+                                    <div class='def' ><img style='height:15px' src='images/games/defense.svg'/> 356</div>
+                                </div>
+                                <div class='stats'>
+                                    <div class="row">
+                                        <div class='col-md-12'><h3>Lv 9 Samurai<br> <span style='font-size:0.5em'>ID. 10748849</span></h3></div>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>
-                        <div class="col-md-3 pe-2 text-center d-flex align-items-stretch ">
-                            <div class="card card-style mx-0 px-2 text-center card-hero ">
-                                <img src="images/character/RUNGIF.gif" class="mx-auto my-3" >
-                            
-                                <h2>Hero</h2>
-                                <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                                <p class="font-11 line-height-s mb-2">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita?
-                                </p>
+                        
+                        <div class="col-md-4 pe-2 text-center d-flex align-items-stretch ">
+                            <div class="card card-style mx-0 px-3 text-center card-hero ">
+                                <div class='hero-img'>
+                                    <img src="images/onmyoji.png" class="mx-auto my-3" >
+                                    <div class='atk' ><img style='height:15px' src='images/games/attack.svg'/> 128</div>
+                                    <div class='def' ><img style='height:15px' src='images/games/defense.svg'/> 170</div>
+                                </div>
+                                <div class='stats'>
+                                    <div class="row">
+                                        <div class='col-md-12'><h3>Lv 2 Onmyoji<br> <span style='font-size:0.5em'>ID. 10748849</span></h3></div>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>
-                        <div class="col-md-3 pe-2 text-center d-flex align-items-stretch ">
-                            <div class="card card-style mx-0 px-2 text-center card-hero ">
-                                <img src="images/character/RUNGIF.gif" class="mx-auto my-3" >
-                            
-                                <h2>Hero</h2>
-                                <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                                <p class="font-11 line-height-s mb-2">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita?
-                                </p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 pe-2 text-center d-flex align-items-stretch ">
-                            <div class="card card-style mx-0 px-2 text-center card-hero ">
-                                <img src="images/character/RUNGIF.gif" class="mx-auto my-3" >
-                            
-                                <h2>Hero</h2>
-                                <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                                <p class="font-11 line-height-s mb-2">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita?
-                                </p>
+                        <div class="col-md-4 pe-2 text-center d-flex align-items-stretch ">
+                            <div class="card card-style mx-0 px-3 text-center card-hero ">
+                                <div class='hero-img'>
+                                    <img src="images/samurai_char.png" class="mx-auto my-3" >
+                                    <div class='atk' ><img style='height:15px' src='images/games/attack.svg'/> 256</div>
+                                    <div class='def' ><img style='height:15px' src='images/games/defense.svg'/> 356</div>
+                                </div>
+                                <div class='stats'>
+                                    <div class="row">
+                                        <div class='col-md-12'><h3>Lv 9 Samurai<br> <span style='font-size:0.5em'>ID. 10748849</span></h3></div>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>
@@ -158,59 +134,7 @@
 
         </div>
     </div>
-    <div id="mission-popup" class="menu menu-box-modal rounded-m" style="width: 50%; height: 50%;">
-        <div class="menu-title">
-            <i class="fa fa-question-circle scale-box float-left mr-3 ml-3 fa-3x mt-1 color-blue-dark"></i>
-            <p class="color-highlight">Select Character,</p>
-            <h1 class="font-20">Choose Your Character</h1>
-            <a href="#" class="close-menu"><i class="fa fa-times-circle"></i></a>
-        </div>
-
-        <div class="content mt-0">
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-6 pe-2 text-center d-flex align-items-stretch">
-                    <div class="card card-style mx-0 px-2 text-center">
-                        <img src="images/Heros/bomb.svg" class="mx-auto my-2" style="max-width: 60px;">
-                        <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6 pe-2 text-center d-flex align-items-stretch">
-                    <div class="card card-style mx-0 px-2 text-center">
-                        <img src="images/Heros/bomb.svg" class="mx-auto my-2" style="max-width: 60px;">
-                        <h5 class="font-14">Lorem ipsum dolor sit amet.</h5>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-    </div>
-    <div id="exchange-popup" class="menu menu-box-modal rounded-m" style="width: 50%; height: 50%;">
-        <div class="menu-title">
-            <i class="fa fa-coins scale-box float-left mr-3 ml-3 fa-3x mt-1 color-blue-dark"></i>
-            <p class="color-highlight">Exchange Tokens,</p>
-            <h1 class="font-20">Budokous TOken</h1>
-            <a href="#" class="close-menu"><i class="fa fa-times-circle"></i></a>
-        </div>
-
-        <div class="content mt-0">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <input type="name" class="form-control validate-name" id="form2" placeholder="Jane Louder">
-                    <i class="fa fa-exchange-alt scale-box fa-3x  color-blue-dark"></i>
-                    <input type="name" class="form-control validate-name" id="form2" placeholder="Jane Louder">
-                    <a href="#" class="btn btn-full gradient-blue font-13 btn-l font-600 mt-3 rounded-sm">Exchange</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="menu-hider" id="menu-hider">
-        <div></div>
-    </div>
+    
     <script>
         //OPEN MODAL
         document.querySelectorAll('a').forEach(function (a) {

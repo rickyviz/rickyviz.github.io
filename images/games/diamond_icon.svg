@@ -1,0 +1,27 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 80" width="99" height="80">
+	<title>[fo]Top</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.4;fill: #000000 } 
+		.shp1 { fill: #48c5f5 } 
+		.shp2 { fill: #a2eaff } 
+		.shp3 { fill: #7de0fd } 
+		.shp4 { fill: #2ca8ee } 
+		.shp5 { fill: #c3f1ff } 
+		.shp6 { fill: #ffffff } 
+	</style>
+	<g id="[fo]Top">
+		<g id="gem">
+			<g id="icon">
+				<path id="Color Fill 642" fill-rule="evenodd" class="shp0" d="M63.28 0.4L40.89 16.88L2.08 31.86L58.79 79.8L99.09 37.85L63.28 0.4Z" />
+				<path id="Color Fill 642 copy" fill-rule="evenodd" class="shp1" d="M63.28 0.4L25.96 1.9L0.59 30.36L46.86 67.82L87.17 25.87L63.28 0.4Z" />
+				<path id="Color Fill 645" fill-rule="evenodd" class="shp2" d="M39.41 1.9L28.95 30.36L-0.91 30.36L24.47 0.4L42.4 -1.1L39.41 1.9Z" />
+				<path id="Color Fill 646" fill-rule="evenodd" class="shp2" d="M58.8 30.36L93.14 24.37L64.77 -4.09L51.34 -1.1L58.8 30.36Z" />
+				<path id="Color Fill 643" fill-rule="evenodd" class="shp3" d="M40.43 0.9L26.95 30.36L59.8 30.36L49.82 -1.1L40.43 0.9Z" />
+				<path id="Color Fill 644" fill-rule="evenodd" class="shp4" d="M28.95 30.36L48.35 70.82L58.8 30.36L28.95 30.36Z" />
+				<path id="Shape 4" class="shp5" d="M39 1L25 26L0 28L0 31L30 34L58 34L89 27L87 24L63 27L52 0L47 0L57 27L32 27L44 0L39 1Z" />
+				<path id="Shape 5" class="shp6" d="M28 25L33 30L28 35L23 30L28 25ZM59 25L64 30L59 35L54 30L59 25Z" />
+			</g>
+		</g>
+	</g>
+</svg>

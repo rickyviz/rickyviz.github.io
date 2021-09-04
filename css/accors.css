@@ -26,16 +26,6 @@
   object-position: bottom; 
 }
 
-.card-hero img{
-  max-width: 50%;
-  width: 120px; 
-  object-fit: cover;
-  object-position: bottom; 
-}
-.card-hero img:hover{
-  transform:scale(1.7);
-  height: 100%;
-}
 
 
 .game-icon-btn {
@@ -231,4 +221,80 @@
     font-size: 11px;
   }
   
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Long+Cang&family=Zhi+Mang+Xing&family=Josefin+Sans:wght@400&display=swap');
+
+
+.navbar-game {
+  background-color: #5a066c;
+  font-family: 'Long Cang', Cursive;
+}
+
+
+.navbar-game .nav-item > a.nav-link {
+   color:white !important;
+   text-align:center;
+   font-size:0.7em;
+} 
+.token {
+  padding:5px 10px;
+  border-radius:13px;
+  background-color: #26221F;
+  color:white;
+  margin-right:10px;
+
+
+    -webkit-box-shadow: 0 10px 6px -6px #333;
+     -moz-box-shadow: 0 10px 6px -6px #333;
+          box-shadow: 0 10px 6px -6px #333;
+}
+.nav-item img, .token img {
+  height:25px;
+}
+.navbar-game {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+body {
+  background-image:url(../images/ancient_japanese_bg.png);
+  background-size:contain;
+}
+
+.card-hero {
+  font-family: 'Long Cang', Cursive;
+  margin-bottom:20px;
+
+  background:rgba(255,255,255,0.4);
+  border:none;
+}
+.card-hero img{
+  max-width: 70%;
+  object-fit: cover;
+  object-position: bottom; 
+}
+.card-hero:hover{
+  transform:scale(1.03);
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+.hero-img .atk, .hero-img .def {
+  font-weight:bold;
+  position:absolute;
+}
+.hero-img .atk {
+  left:20px;
+}
+.hero-img .def {
+  right:20px;
+}
+.card-hero .stats {
+  text-align:center;
+  margin-top:40px;
+
 }
